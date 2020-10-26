@@ -1,7 +1,8 @@
 import React ,{useEffect,useState}from 'react';
 
 
-function NotFound() {
+function NotFound() 
+{
   return (
     <>
     <div>
@@ -11,5 +12,6 @@ function NotFound() {
     </>
   );
 }
+
 
 export default NotFound;

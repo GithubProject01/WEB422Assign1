@@ -6,7 +6,7 @@ function Sales(props) {
   const[sales,setSale]=useState([]);
   const[currentPage,setCurrentPage]=useState(1);
   
-  
+
   useEffect(()=>{
     {
       fetch(`https://web422assign.herokuapp.com/api/sales?page=${currentPage}&perPage=10`)

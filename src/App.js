@@ -77,9 +77,9 @@ function App() {
             </Switch>
           </Col>
         </Row>
+        
         </Grid>
     </>
   );
-}
-
-export default App;
+              }
+export default App

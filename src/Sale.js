@@ -13,6 +13,7 @@ function Sale(props) {
         return amount;
     }
     
+    
     useEffect( ()=>{
         fetch(`https://web422assign.herokuapp.com/api/sales/${props.id}`)
         .then(res => res.json())
